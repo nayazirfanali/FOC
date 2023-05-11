@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+  int a,b,c,temp;
+  
+  printf("Enter three numbers : ");
+  scanf("%d %d %d",&a,&b,&c);
+temp = a;
+a=b;
+b=c;
+c=temp;
+
+  printf("After swapping first number is : %d ",a);
+  printf("\nAfter swapping second number is  : %d ",b);
+  printf("\nAfter swapping second number is  : %d ",c);
+ return 0;
+}
+
